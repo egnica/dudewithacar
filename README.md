@@ -44,7 +44,7 @@
 ##  Phase 5: Polish & Launch
 
 - Add image upload to job form (stored in S3)
-- Final styling with Tailwind (optional Framer Motion for animations)
+- Final styling plus Framer Motion for animations
 - Run full end-to-end tests
 - Final production deployment via Amplify
 - Announce soft launch
