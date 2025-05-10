@@ -70,7 +70,7 @@ Used for: **user management, job data, session tracking**
 
 ---
 
-## ⚛ Next.js
+##  Next.js
 **“The frontend framework.”**  
 A full-stack React framework built for fast, modern web apps. Uses the **App Router** system for better file-based routing and client/server control.
 
