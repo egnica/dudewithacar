@@ -81,7 +81,7 @@ Used for: **UI, routing, login screen, dashboard**
 ##  Supabase JS Client
 **“The bridge between frontend and backend.”**  
 A JavaScript SDK that connects your app to Supabase.  
-I configure it in `supabase/supabaseClient.js` with your project URL and anon key. [supabase/supabaseClient.js](../supabase/supabaseClient.js)
+I configure it in `supabase/supabaseClient.js` with your project URL and anon key. 
 
 Used for: **auth calls, data fetches, inserting records, managing sessions**
 
