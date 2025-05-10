@@ -8,7 +8,8 @@
 - Deploy basic Next.js skeleton (homepage + routes)
 - Integrate Supabase Auth with Google login
 - Add protected admin route for your dashboard
-
+### Supabase is my backend, it handles auth, database, and API access. It’s built on top of PostgreSQL.
+[week one notes](------)
 ---
 
 ## 🗓️ Week 2: Job Form & Database
