@@ -1,6 +1,6 @@
 [Back](../README.md)
 
-# Dude With A Car — Week 1 Notes
+# Dude With A Car — Phase 1 Notes
 
 ##  Stack Overview
 - **Frontend:** Next.js (App Router)
