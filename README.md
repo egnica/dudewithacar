@@ -95,13 +95,13 @@ Used for: **deploying dudewithacar.com live**
 
 ---
 
-##  Framer Motion (planned)
+##  Framer Motion 
 **“Frontend animation library.”**  
 Will be used to add polished transitions and UI animations for smoother interactions.
 
 ---
 
-##  Stripe (future)
+##  Stripe 
 **“Payment processor.”**  
 Will be integrated to collect payments for accepted jobs.
 
