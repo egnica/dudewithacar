@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚗 DudeWithACar – MVP Launch Plan (Real-Time Focused)
 
-## Getting Started
+🗓️ Week 1: Setup & Auth
 
-First, run the development server:
+Set up AWS Amplify project (connect repo, domain)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Deploy basic Next.js skeleton (homepage + routes)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Integrate Supabase Auth with Google login
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Add protected admin route for your dashboard
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🗓️ Week 2: Job Form & Database
 
-## Learn More
+Build user-facing job request form (type, address, time, budget)
 
-To learn more about Next.js, take a look at the following resources:
+Set up Supabase tables: users, jobs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Connect form submission to Supabase via API route
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Insert new job record into DB with status = "pending"
 
-## Deploy on Vercel
+🗓️ Week 3: Admin Dashboard & Realtime System
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Subscribe to jobs table using Supabase Realtime (admin dashboard)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Build admin dashboard UI (pending jobs, accept/deny/counter)
+
+Hook up button actions to update job status in Supabase
+
+On user side: subscribe to job status updates
+
+Display job status changes in real-time (accepted, denied, countered)
+
+🗓️ Week 4: Stripe & Job Completion
+
+Integrate Stripe Checkout or PaymentIntents
+
+Trigger Stripe payment only after job is accepted
+
+Add "Mark Job as Complete" button on admin side
+
+Update jobs table with status = "completed" and completed_at
+
+Show confirmation on user side in real time
+
+🗓️ Week 5: Polish & Launch
+
+Add image upload to job form (stored in S3)
+
+Final styling with Tailwind (optional Framer Motion for animations)
+
+Run full end-to-end tests
+
+Final production deployment via Amplify
+
+Announce soft launch
