@@ -1,8 +1,8 @@
-# 🚗 DudeWithACar – MVP Launch Plan (Real-Time Focused)
+# 🚗 DudeWithACar – MVP Launch Plan 
 
 ---
 
-## 🗓️ Week 1: Setup & Auth
+## Phase 1: Setup & Auth
 
 - Set up AWS Amplify project (connect repo, domain)
 - Deploy basic Next.js skeleton (homepage + routes)
@@ -12,7 +12,7 @@
 [week one notes](./notes/week1-notes.md)
 ---
 
-## 🗓️ Week 2: Job Form & Database
+## Phase 2: Job Form & Database
 
 - Build user-facing job request form (type, address, time, budget)
 - Set up Supabase tables: `users`, `jobs`
@@ -21,7 +21,7 @@
 
 ---
 
-## 🗓️ Week 3: Admin Dashboard & Realtime System
+##  Phase 3: Admin Dashboard & Realtime System
 
 - Subscribe to `jobs` table using Supabase Realtime (admin dashboard)
 - Build admin dashboard UI (pending jobs, accept/deny/counter)
@@ -31,7 +31,7 @@
 
 ---
 
-## 🗓️ Week 4: Stripe & Job Completion
+##  Phasek 4: Stripe & Job Completion
 
 - Integrate Stripe Checkout or PaymentIntents
 - Trigger Stripe payment only after job is accepted
@@ -41,7 +41,7 @@
 
 ---
 
-## 🗓️ Week 5: Polish & Launch
+##  Phase 5: Polish & Launch
 
 - Add image upload to job form (stored in S3)
 - Final styling with Tailwind (optional Framer Motion for animations)
