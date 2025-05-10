@@ -48,3 +48,58 @@
 - Run full end-to-end tests
 - Final production deployment via Amplify
 - Announce soft launch
+
+#  Tech Stack — Dude With A Car
+
+A breakdown of the tools and technologies powering the project.
+
+---
+
+##  Supabase
+**“The backend.”**  
+A hosted backend platform built on top of PostgreSQL. Handles:
+-  Authentication (Google login, user sessions)
+-  Database (relational, scalable, secure)
+-  API access (REST & GraphQL endpoints)
+-  Storage and Edge Functions (for future expansion)
+
+Used for: **user management, job data, session tracking**
+
+---
+
+## ⚛ Next.js
+**“The frontend framework.”**  
+A full-stack React framework built for fast, modern web apps. Uses the **App Router** system for better file-based routing and client/server control.
+
+Used for: **UI, routing, login screen, dashboard**
+
+---
+
+##  Supabase JS Client
+**“The bridge between frontend and backend.”**  
+A JavaScript SDK that connects your app to Supabase.  
+You configure it in `supabase/supabaseClient.js` with your project URL and anon key.
+
+Used for: **auth calls, data fetches, inserting records, managing sessions**
+
+---
+
+##  AWS Amplify
+**“The hosting platform.”**  
+A powerful service to deploy and host your Next.js frontend with GitHub integration, continuous deployment, and custom domains.
+
+Used for: **deploying dudewithacar.com live**
+
+---
+
+##  Framer Motion (planned)
+**“Frontend animation library.”**  
+Will be used to add polished transitions and UI animations for smoother interactions.
+
+---
+
+##  Stripe (future)
+**“Payment processor.”**  
+Will be integrated to collect payments for accepted jobs.
+
+---
