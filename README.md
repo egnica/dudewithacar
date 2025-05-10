@@ -9,7 +9,7 @@
 - Integrate Supabase Auth with Google login
 - Add protected admin route for your dashboard
 ### Supabase is my backend, it handles auth, database, and API access. It’s built on top of PostgreSQL.
-[week one notes](./notes/week1-notes.md)
+[Phase one notes](./notes/week1-notes.md)
 ---
 
 ## Phase 2: Job Form & Database
