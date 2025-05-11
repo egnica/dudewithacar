@@ -1,2 +1,18 @@
-.page {
+.btnContain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-content: center;
+  gap: 10px;
+  max-width: 700px; /* adjust based on your layout */
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+
+.serviceBtn {
+  padding: 10px;
+  background-color: rgb(108, 108, 255);
+  color: aliceblue;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
 }
